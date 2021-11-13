@@ -1,0 +1,1046 @@
+# Korean translation for gnome-video-arcade.
+# Copyright (C) 2021 gnome-video-arcade's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-video-arcade package.
+# Seong-ho Cho <shcho@gnome.org>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-video-arcade master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/"
+"issues\n"
+"POT-Creation-Date: 2021-02-02 17:13+0000\n"
+"PO-Revision-Date: 2021-10-01 10:40+0900\n"
+"Language-Team: Korean <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../data/gnome-video-arcade.builder.h:1
+msgid "Add to _Favorites"
+msgstr "즐겨찾기 항목에 추가(_F)"
+
+#: ../data/gnome-video-arcade.builder.h:2
+msgid "Show next game"
+msgstr "다음 게임 표시"
+
+#: ../data/gnome-video-arcade.builder.h:3
+msgid "Play _Back…"
+msgstr "게임 장면 재생(_B)…"
+
+#: ../data/gnome-video-arcade.builder.h:4
+msgid "Play back the selected game recording"
+msgstr "선택한 게임 기록본을 재생합니다"
+
+#: ../data/gnome-video-arcade.builder.h:5
+msgid "Show previous game"
+msgstr "이전 게임 표시"
+
+#: ../data/gnome-video-arcade.builder.h:6
+msgid "_Properties"
+msgstr "속성(_P)"
+
+#: ../data/gnome-video-arcade.builder.h:7
+msgid "Show information about the selected game"
+msgstr "선택한 게임 정보를 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:8
+msgid "_Record"
+msgstr "기록(_R)"
+
+#: ../data/gnome-video-arcade.builder.h:9
+msgid "Start the selected game and record keypresses to a file"
+msgstr "선택한 게임을 시작하고 키 누름을 파일에 기록합니다"
+
+#: ../data/gnome-video-arcade.builder.h:10
+msgid "Remove from _Favorites"
+msgstr "즐겨찾기에서 제거(_F)"
+
+#: ../data/gnome-video-arcade.builder.h:11
+msgid "Remove the selected game from my list of favorites"
+msgstr "선택한 게임을 내 즐겨찾기 목록에서 제거합니다"
+
+#: ../data/gnome-video-arcade.builder.h:12
+msgid "Save _As…"
+msgstr "다른 이름으로 저장(_A)…"
+
+#: ../data/gnome-video-arcade.builder.h:13
+msgid "Save ROM errors to a file"
+msgstr "롬 오류를 파일에 저장"
+
+#: ../data/gnome-video-arcade.builder.h:14
+msgid "S_earch…"
+msgstr "검색(_E)…"
+
+#: ../data/gnome-video-arcade.builder.h:15
+msgid "Show a custom list of games"
+msgstr "게임의 개별 목록을 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:16
+msgid "Play back a previously recorded game"
+msgstr "이전에 기록한 게임을 재생합니다"
+
+#: ../data/gnome-video-arcade.builder.h:17
+msgid "_Start"
+msgstr "시작(_S)"
+
+#: ../data/gnome-video-arcade.builder.h:18
+msgid "Start the selected game"
+msgstr "선택한 게임을 시작합니다"
+
+#: ../data/gnome-video-arcade.builder.h:19
+msgid "Show _alternate versions of original games"
+msgstr "원작 게임의 대체 버전 표시(_A)"
+
+#: ../data/gnome-video-arcade.builder.h:20
+msgid "_Available Games"
+msgstr "가용 게임(_A)"
+
+#: ../data/gnome-video-arcade.builder.h:21
+msgid "Show all available games"
+msgstr "플레이할 수 있는 모든 게임을 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:22
+msgid "_Favorite Games"
+msgstr "즐겨찾는 게임(_F)"
+
+#: ../data/gnome-video-arcade.builder.h:23
+msgid "Only show my favorite games"
+msgstr "내 즐겨찾기 게임만 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:24
+msgid "Search _Results"
+msgstr "검색 결과(_R)"
+
+#: ../data/gnome-video-arcade.builder.h:25
+msgid "Show my search results"
+msgstr "내 검색 결과를 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:26
+#: ../data/gnome-video-arcade.appdata.xml.in.h:1
+#: ../data/gnome-video-arcade.desktop.in.h:1
+msgid "GNOME Video Arcade"
+msgstr "그놈 비디오 아케이드"
+
+#. This label precedes the search entry. e.g. Search for: Pac-Man
+#: ../data/gnome-video-arcade.builder.h:28
+msgid "Search for:"
+msgstr "검색 대상:"
+
+#: ../data/gnome-video-arcade.builder.h:29
+msgid "_Start Game"
+msgstr "게임 시작(_S)"
+
+#: ../data/gnome-video-arcade.builder.h:30
+msgid " "
+msgstr " "
+
+#: ../data/gnome-video-arcade.builder.h:31
+msgid "<big><b>Errors detected in ROM files</b></big>"
+msgstr "<big><b>롬 파일에서 오류 발견</b></big>"
+
+#: ../data/gnome-video-arcade.builder.h:32
+msgid ""
+"An audit of the available games has detected errors in some of the ROM "
+"files. The following games will not be available in GNOME Video Arcade."
+msgstr ""
+"가용 게임 검사 과정에서 롬 파일 일부 오류를 찾았습니다. 다음 게임은 그놈 비디"
+"오 아케이드에서 실행할 수 없습니다."
+
+#: ../data/gnome-video-arcade.builder.h:33
+msgid ""
+"<small><i>If these games worked with previous versions of MAME, it is likely "
+"their ROM requirements have changed.  If so, you will need to acquire more "
+"recent ROM files.</i></small>"
+msgstr ""
+"<small><i>MAME 이전 버전에서 이 게임이 동작했다면 롬 필요 요소가 바뀌었을 수 "
+"있습니다.  만약 그렇다면, 최근 롬 파일이 필요합니다.</i></small>"
+
+#: ../data/gnome-video-arcade.builder.h:34
+msgid "Close this window"
+msgstr "이 창을 닫습니다"
+
+#: ../data/gnome-video-arcade.builder.h:35
+msgid "Properties"
+msgstr "속성"
+
+#: ../data/gnome-video-arcade.builder.h:36
+msgid "History"
+msgstr "기록"
+
+#. The same text is in gnome-video-arcade.builder,
+#. * so it has to be translated with markup anyway.
+#: ../data/gnome-video-arcade.builder.h:37 ../src/gva-columns.c:753
+msgid "<b>There are known problems with this game:</b>"
+msgstr "<b>이 게임의 알려진 문제:</b>"
+
+#. The labels begin with a UTF-8 encoded bullet character.
+#: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
+#, no-c-format
+msgid "• The colors aren’t 100% accurate."
+msgstr "• 색이 100% 정확하지 않습니다."
+
+#: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
+msgid "• The colors are completely wrong."
+msgstr "• 색이 완전히 잘못됐습니다."
+
+#: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
+#, no-c-format
+msgid "• The video emulation isn’t 100% accurate."
+msgstr "• 영상 에뮬레이션이 100% 정확하지 않습니다."
+
+#: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
+#, no-c-format
+msgid "• The sound emulation isn’t 100% accurate."
+msgstr "• 소리 에뮬레이션이 100% 정확하지 않습니다."
+
+#: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
+msgid "• The game lacks sound."
+msgstr "• 게임에 소리가 빠졌습니다."
+
+#: ../data/gnome-video-arcade.builder.h:46 ../src/gva-columns.c:812
+msgid "• Screen flipping in cocktail mode is not supported."
+msgstr "• 칵테일 모드에서 화면 뒤집기를 지원하지 않습니다."
+
+#: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
+msgid "• <b>THIS GAME DOESN’T WORK.</b>"
+msgstr "• <b>이 게임은 동작하지 않습니다.</b>"
+
+#: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
+msgid "• The game has protection which isn’t fully emulated."
+msgstr ""
+"• 게임을 완전히 에뮬레이션 하지 못하도록 하는 보호 기술이 들어있습니다."
+
+#: ../data/gnome-video-arcade.builder.h:49
+msgid "<b>BIOS</b>"
+msgstr "<b>바이오스</b>"
+
+#: ../data/gnome-video-arcade.builder.h:50
+msgid "<b>CPU</b>"
+msgstr "<b>CPU</b>"
+
+#: ../data/gnome-video-arcade.builder.h:51
+msgid "<b>Sound</b>"
+msgstr "<b>소리</b>"
+
+#: ../data/gnome-video-arcade.builder.h:52
+msgid "<b>Video</b>"
+msgstr "<b>비디오</b>"
+
+#: ../data/gnome-video-arcade.builder.h:53
+msgid "<b>Original Version</b>"
+msgstr "<b>원작 버전</b>"
+
+#: ../data/gnome-video-arcade.builder.h:54
+msgid "<b>Alternate Versions</b>"
+msgstr "<b>대체 버전</b>"
+
+#: ../data/gnome-video-arcade.builder.h:55
+msgid "Technical"
+msgstr "기술"
+
+#: ../data/gnome-video-arcade.builder.h:56
+msgid "Recorded Games"
+msgstr "기록한 게임"
+
+#: ../data/gnome-video-arcade.builder.h:57
+msgid "Delete the selected game recordings"
+msgstr "선택한 게임 기록을 삭제합니다"
+
+#: ../data/gnome-video-arcade.builder.h:58
+msgid "Play _Back"
+msgstr "재생(_B)"
+
+#: ../data/gnome-video-arcade.builder.h:59
+msgid "_About"
+msgstr "정보(_A)"
+
+#: ../data/gnome-video-arcade.builder.h:60
+msgid "Show information about the application"
+msgstr "프로그램 정보를 나타냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:61
+msgid "_Contents"
+msgstr "내용(_C)"
+
+#: ../data/gnome-video-arcade.builder.h:62
+msgid "Open the help documentation"
+msgstr "도움말 문서를 엽니다"
+
+#: ../data/gnome-video-arcade.builder.h:63
+msgid "_Preferences"
+msgstr "기본 설정(_P)"
+
+#: ../data/gnome-video-arcade.builder.h:64
+msgid "Configure the application"
+msgstr "프로그램을 설정합니다"
+
+#: ../data/gnome-video-arcade.builder.h:65
+msgid "_Quit"
+msgstr "끝내기(_Q)"
+
+#: ../data/gnome-video-arcade.builder.h:66
+msgid "Quit the application"
+msgstr "프로그램을 끝냅니다"
+
+#: ../data/gnome-video-arcade.builder.h:67
+msgid "_Add Column"
+msgstr "열 추가(_A)"
+
+#: ../data/gnome-video-arcade.builder.h:68
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: ../data/gnome-video-arcade.builder.h:69
+msgid "_Game"
+msgstr "게임(_G)"
+
+#: ../data/gnome-video-arcade.builder.h:70
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../data/gnome-video-arcade.builder.h:71
+msgid "_View"
+msgstr "보기(_V)"
+
+#: ../data/gnome-video-arcade.builder.h:72
+msgid "_Restore previous state when starting a game"
+msgstr "게임을 시작할 때 이전 상태 복원(_R)"
+
+#: ../data/gnome-video-arcade.builder.h:73
+msgid "Start games in _fullscreen mode"
+msgstr "전체 화면 모드로 게임 시작(_F)"
+
+#: ../data/gnome-video-arcade.builder.h:74
+msgid "Preferences"
+msgstr "기본 설정"
+
+#: ../data/gnome-video-arcade.builder.h:75
+msgid "<b>General</b>"
+msgstr "<b>일반</b>"
+
+#: ../data/gnome-video-arcade.builder.h:76
+msgid ""
+"<small><i><b>Note:</b> Setting this will not take effect until the second "
+"time the game is started. It does not apply to recording or playing back "
+"games.</i></small>"
+msgstr ""
+"<small><i><b>참고:</b> 이 설정은 게임을 다시 시작하기 전에는 적용하지 않습니"
+"다. 또한 게임을 기록하거나 재생할 때도 적용하지 않습니다.</i></small>"
+
+#: ../data/gnome-video-arcade.builder.h:77
+msgid "<b>Game List</b>"
+msgstr "<b>게임 목록</b>"
+
+#: ../data/gnome-video-arcade.builder.h:78
+msgid "General"
+msgstr "일반"
+
+#: ../data/gnome-video-arcade.builder.h:79
+msgid "<b>Columns</b>"
+msgstr "<b>열</b>"
+
+#: ../data/gnome-video-arcade.builder.h:80
+msgid "Choose the order of information to appear in the game list."
+msgstr "게임 목록에 나타낼 정보 순서를 선택합니다."
+
+#: ../data/gnome-video-arcade.builder.h:81
+msgid "Columns"
+msgstr "열"
+
+#: ../data/gnome-video-arcade.appdata.xml.in.h:2
+msgid ""
+"GNOME Video Arcade is a simple front-end application for MAME (Multiple "
+"Arcade Machine Emulator) allowing you to play classic arcade games on your "
+"computer."
+msgstr ""
+"그놈 비디오 아케이드는 컴퓨터에서 고전 아케이드 게임을 진행할 수 있는 간단한 "
+"MAME(다중 아케이드 머신 에뮬레이터) 프론트엔드 프로그램입니다."
+
+#: ../data/gnome-video-arcade.desktop.in.h:2
+msgid "Video Arcade"
+msgstr "비디오 아케이드"
+
+#: ../data/gnome-video-arcade.desktop.in.h:3
+msgid "Play classic arcade games"
+msgstr "고전 아케이드 게임 플레이"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:1
+msgid "All available column names"
+msgstr "모든 가용 열 이름"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
+msgid ""
+"List of all available column names. The user may choose to only display a "
+"subset of them (see “columns”)."
+msgstr ""
+"나타낼 수 있는 모든 열 이름 목록입니다. 사용자는 여러 열(“열” 참고) 이름 중 "
+"나타낼 일부만 선택할 수 있습니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
+msgid "Save and restore state"
+msgstr "상태 저장 및 복원"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:4
+msgid ""
+"Enable automatic restore at startup and save at exit. If true, the emulator "
+"will try to restore the previous state of the arcade machine when starting a "
+"game. If false, the emulator will boot the arcade machine from a cold start. "
+"This setting does not apply to recording games or playing back previously "
+"recorded games. In those cases the emulator will always reboot the arcade "
+"machine."
+msgstr ""
+"빠져나갈 때 저장하고 시작할 때 자동으로 상태를 복원합니다. 참이면 에뮬레이터에"
+"서 게임을 시작할 때 아케이드 머신의 이전 상태를 복원하려고 합니다. 거짓이면, "
+"아케이드 머신을 콜드 스타트 방식으로 부팅합니다. 이 설정은 게임을 기록하거나 "
+"이전에 기록한 게임을 재생할 때 적용하지 않습니다. 이 경우 에뮬레이터는 아케이"
+"드 머신을 항상 다시 부팅합니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:5
+msgid "Column names"
+msgstr "열 이름"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:6
+msgid "List of column names to display."
+msgstr "나타낼 열 이름 목록."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:7
+msgid "Favorite games"
+msgstr "즐겨찾는 게임"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:8
+msgid "List of the user’s favorite games."
+msgstr "사용자의 즐겨찾는 게임 목록입니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:9
+msgid "Start games in full screen mode"
+msgstr "전체 화면 모드로 게임 시작"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:10
+msgid ""
+"If true, automatically switch to full screen mode when starting a game. If "
+"false, start the game in a window."
+msgstr ""
+"참이면 게임을 시작할 때 전체 화면 모드로 자동으로 전환합니다. 거짓이면 창에"
+"서 게임을 시작합니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:11
+msgid "ROM error filename"
+msgstr "롬 오류 파일 이름"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
+msgid "Suggested filename for the ROM error “Save As” dialog."
+msgstr "롬 오류 “다른 이름으로 저장” 대화 상자에 제안하는 파일 이름."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
+msgid "Properties height"
+msgstr "속성 높이"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:14
+msgid "The height of the Properties window."
+msgstr "속성 창의 높이."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:15
+msgid "Properties maximized"
+msgstr "속성 최대화"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:16
+msgid "True if the Properties window is maximized."
+msgstr "참이면 속성 창을 최대화."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:17
+msgid "Properties page"
+msgstr "속성 페이지"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:18
+msgid "The most recently selected page in the Properties window."
+msgstr "가장 최근에 선택한 속성 창 페이지."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:19
+msgid "Properties width"
+msgstr "속성 너비"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:20
+msgid "The width of the Properties window."
+msgstr "속성 창의 너비."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:21
+msgid "Search text"
+msgstr "검색 텍스트"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:22
+msgid "The most recent text in the search entry."
+msgstr "검색 항목에서 가장 최근에 활용한 텍스트입니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:23
+msgid "Selected game"
+msgstr "선택한 게임"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:24
+msgid "The most recently selected game."
+msgstr "가장 최근 선택한 게임입니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:25
+msgid "Selected completion match"
+msgstr "선택한 완성 일치"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:26
+msgid ""
+"The most recently selected match from a search completion list. The first "
+"value is the column name of the match, and the second value is the text of "
+"the match. Example: (manufacturer, Williams). Empty values indicate the "
+"completion feature was not used in the most recent search."
+msgstr ""
+"가장 최근에 선택한 검색어 완성 목록의 일치 항목입니다. 첫번째 값은 일치한 열 "
+"이름, 두번째 값은 일치한 텍스트입니다. 예:(제작사, Williams). 빈 값은 가장 최"
+"근 검색에 완성 기능을 활용하지 않았음을 나타냅니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:27
+msgid "Selected view"
+msgstr "선택 보기"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:28
+msgid "The most recently selected view."
+msgstr "최근 선택한 항목의 보기입니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:29
+msgid "Show cloned games"
+msgstr "복제 게임 표시"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:30
+msgid ""
+"If true, show both original and cloned games in the main window. If false, "
+"show only original games."
+msgstr ""
+"참이면, 원작과 복제 게임을 메인 창에 나타냅니다. 거짓이면, 원작 게임만 나타냅"
+"니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:31
+msgid "Sort column and sort order"
+msgstr "열 정렬 및 정렬 순서"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:32
+msgid ""
+"The first value is the most recently sorted column name (or “default” for "
+"default sorting), and the second value is the sort order. True indicates "
+"descending order; False indicates ascending order."
+msgstr ""
+"첫번째 값은 가장 최근에 정렬한 열 이름(또는 기본 정렬 방식의 “default”)이며, "
+"두번째 값은 정렬 순서입니다. 참은 내림차순 정렬을 나타내며, 거짓은 오름차순 "
+"정렬을 나타냅니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
+msgid "Sound muted"
+msgstr "음소거함"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:34
+msgid "If true, games are started without sound."
+msgstr "참이면, 게임 소리를 끈 채로 시작합니다."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:35
+msgid "Program version"
+msgstr "프로그램 버전"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:36
+msgid "The most recently run version of GNOME Video Arcade."
+msgstr "그놈 비디오 아케이드의 최근 실행 버전."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:37
+msgid "Window height"
+msgstr "창 높이"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:38
+msgid "The height of the main window."
+msgstr "메인 창의 높이."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:39
+msgid "Window maximized"
+msgstr "창 최대화"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:40
+msgid "True if the main window is maximized."
+msgstr "참이면 메인 창을 최대화."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:41
+msgid "Window width"
+msgstr "창 너비"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:42
+msgid "The width of the main window."
+msgstr "메인 창의 너비."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:43
+msgid "Window X coordinate"
+msgstr "창 X 좌표"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:44
+msgid "The X coordinate of the main window."
+msgstr "메인 창의 X 좌표."
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:45
+msgid "Window Y coordinate"
+msgstr "창 Y 좌표"
+
+#: ../data/org.gnome.VideoArcade.gschema.xml.in.h:46
+msgid "The Y coordinate of the main window."
+msgstr "메인 창의 Y 좌표."
+
+#: ../src/gva-audit.c:249
+msgid "Save As"
+msgstr "다른 이름으로 저장"
+
+#: ../src/gva-column-manager.c:557
+msgid "Managed View"
+msgstr "관리 보기"
+
+#: ../src/gva-column-manager.c:558
+msgid "The GtkTreeView being managed"
+msgstr "GtkTreeView로 관리하는 보기입니다"
+
+#: ../src/gva-column-manager.c:615
+msgid "Move _Up"
+msgstr "위로 이동(_U)"
+
+#: ../src/gva-column-manager.c:628
+msgid "Move _Down"
+msgstr "아래로 이동(_D)"
+
+#: ../src/gva-column-manager.c:641
+msgid "_Show"
+msgstr "보이기(_S)"
+
+#: ../src/gva-column-manager.c:650
+msgid "_Hide"
+msgstr "숨기기(_H)"
+
+#: ../src/gva-columns.c:299
+#, c-format
+msgid "Remove %s Column"
+msgstr "%s열 제거"
+
+#: ../src/gva-columns.c:301
+#, c-format
+msgid "Remove the “%s” column from the game list"
+msgstr "게임 목록에서 “%s”열을 제거합니다"
+
+#: ../src/gva-columns.c:867
+msgid "Click here to remove from favorites"
+msgstr "즐겨찾기에서 제거하려면 여기를 누르십시오"
+
+#: ../src/gva-columns.c:869
+msgid "Click here to add to favorites"
+msgstr "즐겨찾기에 추가하려면 여기를 누르십시오"
+
+#: ../src/gva-columns.c:961 ../src/gva-properties.c:408
+msgid "(Game Description Unknown)"
+msgstr "(게임 설명 알 수 없음)"
+
+#: ../src/gva-columns.c:964 ../src/gva-properties.c:411
+msgid "(Manufacturer Unknown)"
+msgstr "(제작사 알 수 없음)"
+
+#: ../src/gva-columns.c:967 ../src/gva-properties.c:414
+msgid "(Year Unknown)"
+msgstr "(제작 연도 알 수 없음)"
+
+#: ../src/gva-columns.c:991 ../src/gva-main.c:1021
+msgid "ROM Name"
+msgstr "롬 명칭"
+
+#: ../src/gva-columns.c:993
+msgid "BIOS"
+msgstr "바이오스"
+
+#: ../src/gva-columns.c:995 ../src/gva-main.c:1014
+msgid "Category"
+msgstr "분류"
+
+#: ../src/gva-columns.c:997
+msgid "Favorite"
+msgstr "즐겨찾기"
+
+#: ../src/gva-columns.c:1000
+msgid "Driver"
+msgstr "드라이버"
+
+#: ../src/gva-columns.c:1010
+msgid "Samples"
+msgstr "샘플"
+
+#: ../src/gva-columns.c:1012
+msgid "Title"
+msgstr "제목"
+
+#: ../src/gva-columns.c:1015
+msgid "Year"
+msgstr "제작 연도"
+
+#: ../src/gva-columns.c:1018 ../src/gva-main.c:1000
+msgid "Manufacturer"
+msgstr "제작사"
+
+#: ../src/gva-columns.c:1024
+msgid "Players"
+msgstr "플레이어"
+
+#: ../src/gva-columns.c:1027
+msgid "Players (Alt.)"
+msgstr "플레이어 (교대)"
+
+#: ../src/gva-columns.c:1030
+msgid "Players (Sim.)"
+msgstr "플레이어 (동시)"
+
+#: ../src/gva-columns.c:1035
+msgid "Status"
+msgstr "상태"
+
+#: ../src/gva-columns.c:1046
+msgid "Last Played"
+msgstr "최근 플레이"
+
+#: ../src/gva-columns.c:1048
+msgid "Comment"
+msgstr "설명"
+
+#: ../src/gva-columns.c:1052
+msgid "Played On"
+msgstr "플레이 시기"
+
+#: ../src/gva-input-file.c:505
+#, c-format
+msgid "Invalid or unsupported INP file format"
+msgstr "부적절하거나 지원하지 않는 INP 파일 형식"
+
+#: ../src/gva-main.c:242
+msgid "Building game database…"
+msgstr "게임 데이터 베이스 구성중…"
+
+#: ../src/gva-main.c:302
+msgid "Analyzing ROM files…"
+msgstr "롬 파일 분석중…"
+
+#: ../src/gva-main.c:986
+msgid "Search for any of the following:"
+msgstr "다음 항목 내용 검색:"
+
+#. The labels begin with a UTF-8 encoded bullet character.
+#: ../src/gva-main.c:993
+msgid "Game Title"
+msgstr "게임 제목"
+
+#: ../src/gva-main.c:1007
+msgid "Copyright Year"
+msgstr "제작 연도"
+
+#: ../src/gva-main.c:1028
+msgid "BIOS Name"
+msgstr "바이오스 명칭"
+
+#: ../src/gva-main.c:1035
+msgid "Driver Name"
+msgstr "드라이버 명칭"
+
+#: ../src/gva-mame.c:203
+#, c-format
+msgid "Could not determine emulator version"
+msgstr "에뮬레이터 버전을 확인할 수 없습니다"
+
+#: ../src/gva-mame.c:358
+#, c-format
+msgid "%s: No such configuration key"
+msgstr "%s: 설정 키가 없습니다"
+
+#: ../src/gva-mute-button.c:126
+msgid "Muted"
+msgstr "끔"
+
+#: ../src/gva-mute-button.c:127
+msgid "Whether the button state is muted"
+msgstr "단추 동작을 껐는지 여부"
+
+#: ../src/gva-mute-button.c:202
+msgid "In-game sound is muted"
+msgstr "게임 소리 음소거함"
+
+#: ../src/gva-mute-button.c:207
+msgid "In-game sound is enabled"
+msgstr "게임 소리를 켜둠"
+
+#: ../src/gva-nplayers.c:179
+msgid "Up to four players alternating or two players simultaneously"
+msgstr "4인 교대 플레이 또는 2인 동시 플레이"
+
+#: ../src/gva-nplayers.c:183
+msgid "Up to eight players alternating or two players simultaneously"
+msgstr "8인 교대 플레이 또는 2인 동시 플레이"
+
+#: ../src/gva-nplayers.c:198 ../src/gva-nplayers.c:241
+#: ../src/gva-nplayers.c:277
+msgid "One player only"
+msgstr "1인용"
+
+#: ../src/gva-nplayers.c:201
+msgid "One or two players"
+msgstr "1-2인용"
+
+#: ../src/gva-nplayers.c:204
+msgid "Up to three players"
+msgstr "3인용"
+
+#: ../src/gva-nplayers.c:207
+msgid "Up to four players"
+msgstr "4인용"
+
+#: ../src/gva-nplayers.c:210
+msgid "Up to five players"
+msgstr "5인용"
+
+#: ../src/gva-nplayers.c:213
+msgid "Up to six players"
+msgstr "6인용"
+
+#: ../src/gva-nplayers.c:216
+msgid "Up to seven players"
+msgstr "7인용"
+
+#: ../src/gva-nplayers.c:219
+msgid "Up to eight players"
+msgstr "8인용"
+
+#: ../src/gva-nplayers.c:244
+msgid "One or two players alternating"
+msgstr "1-2인 교대 플레이"
+
+#: ../src/gva-nplayers.c:247
+msgid "Up to three players alternating"
+msgstr "3인 교대 플레이"
+
+#: ../src/gva-nplayers.c:250
+msgid "Up to four players alternating"
+msgstr "4인 교대 플레이"
+
+#: ../src/gva-nplayers.c:253
+msgid "Up to five players alternating"
+msgstr "5인 교대 플레이"
+
+#: ../src/gva-nplayers.c:256
+msgid "Up to six players alternating"
+msgstr "6인 교대 플레이"
+
+#: ../src/gva-nplayers.c:259
+msgid "Up to seven players alternating"
+msgstr "7인 교대 플레이"
+
+#: ../src/gva-nplayers.c:262
+msgid "Up to eight players alternating"
+msgstr "8인 교대 플레이"
+
+#: ../src/gva-nplayers.c:280
+msgid "One or two players simultaneously"
+msgstr "1-2인 동시 플레이"
+
+#: ../src/gva-nplayers.c:283
+msgid "Up to three players simultaneously"
+msgstr "3인 동시 플레이"
+
+#: ../src/gva-nplayers.c:286
+msgid "Up to four players simultaneously"
+msgstr "4인 동시 플레이"
+
+#: ../src/gva-nplayers.c:289
+msgid "Up to five players simultaneously"
+msgstr "5인 동시 플레이"
+
+#: ../src/gva-nplayers.c:292
+msgid "Up to six players simultaneously"
+msgstr "6인 동시 플레이"
+
+#: ../src/gva-nplayers.c:295
+msgid "Up to seven players simultaneously"
+msgstr "7인 동시 플레이"
+
+#: ../src/gva-nplayers.c:298
+msgid "Up to eight players simultaneously"
+msgstr "8인 동시 플레이"
+
+#: ../src/gva-play-back.c:54
+msgid "Delete selected game recordings?"
+msgstr "선택한 게임 기록을 삭제합니까?"
+
+#: ../src/gva-play-back.c:58
+msgid ""
+"This operation will permanently erase the recorded games you have selected.  "
+"Are you sure you want to proceed?"
+msgstr "이 동작은 선택한 게임 기록을 완전히 지웁니다.  정말로 진행합니까?"
+
+#: ../src/gva-play-back.c:62
+msgid "Do Not Delete"
+msgstr "삭제 안함"
+
+#: ../src/gva-properties.c:144
+msgid "Show this game"
+msgstr "이 게임 표시"
+
+#: ../src/gva-properties.c:455
+#, c-format
+msgid ""
+"Error while fetching history:\n"
+"%s"
+msgstr ""
+"기록을 가져오는 동안 오류:\n"
+"%s"
+
+#: ../src/gva-properties.c:460
+msgid "History not available"
+msgstr "기록이 없습니다"
+
+#: ../src/gva-tree-view.c:431
+msgid "Available Game"
+msgid_plural "Available Games"
+msgstr[0] "가용 게임"
+
+#: ../src/gva-tree-view.c:438
+msgid "Favorite Game"
+msgid_plural "Favorite Games"
+msgstr[0] "즐겨찾는 게임"
+
+#: ../src/gva-tree-view.c:445
+msgid "Search Result"
+msgid_plural "Search Results"
+msgstr[0] "검색 결과"
+
+#: ../src/gva-ui.c:58
+msgid ""
+"GNOME Video Arcade is free software; you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
+"Free Software Foundation; either version 3 of the License, or (at your "
+"option) any later version.\n"
+"\n"
+"GNOME Video Arcade is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"GNOME Video Arcade.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"그놈 비디오 아케이드는 자유 소프트웨어입니다. 자유 소프트웨어 재단이 공표한 "
+"GNU 일반 공중 사용 허가서 버전 3이상 또는 (취향에 따라) 그 이후의 버전에 명시"
+"한 조항에 따라 재배포, 수정할 수 있습니다.\n"
+"\n"
+"그놈 비디오 아케이드는 쓸모 있길 바라며 배포하지만 그 어떤 보증도 하지 않습니"
+"다. 상업성 또는 특정 목적의 적합성에 대한 묵시적 보증 조차도 하지 않습니다.  "
+"자세한 내용은 GNU 일반 공중 사용 허가서를 참조하십시오.\n"
+"\n"
+"그놈 비디오 아케이드와 GNU 일반 공중 사용 허가서 사본을 함께 받아야 합니다.  "
+"사본이 없을 경우 <http://www.gnu.org/licenses/>를 참조하십시오."
+
+#: ../src/gva-ui.c:310
+msgid "M.A.M.E. Front-End"
+msgstr "M.A.M.E. 프론트엔드"
+
+#: ../src/gva-ui.c:315
+msgid "Visit the Website"
+msgstr "웹 사이트 방문"
+
+#: ../src/gva-ui.c:317
+msgid "translator-credits"
+msgstr "조성호 <shcho@gnome.org>, 2021"
+
+#. Translators: This is passed through D-Bus as
+#. * the reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:444
+msgid "Watching a fullscreen game"
+msgstr "전체 화면 게임 시청중"
+
+#. Translators: This is passed through D-Bus as
+#. * the reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:543
+msgid "Recording a fullscreen game"
+msgstr "전체 화면 게임 기록중"
+
+#. Translators: This is passed through D-Bus as the
+#. * reason to inhibit GNOME screen saver.
+#: ../src/gva-ui.c:683
+msgid "Playing a fullscreen game"
+msgstr "전체 화면 게임 진행중"
+
+#: ../src/gva-ui.c:780
+msgid "Failed to initialize user interface"
+msgstr "사용자 인터페이스 초기화에 실패했습니다"
+
+#: ../src/gva-ui.c:922
+#, c-format
+msgid "Add %s Column"
+msgstr "%s열 추가"
+
+#: ../src/gva-ui.c:924
+#, c-format
+msgid "Add a “%s” column to the game list"
+msgstr "“%s”열을 게임 목록에 추가합니다"
+
+#: ../src/main.c:53
+msgid "Build the games database"
+msgstr "게임 데이터베이스 구성"
+
+#: ../src/main.c:57
+msgid "Inspect an emulator setting"
+msgstr "에뮬레이터 설정 검사"
+
+#: ../src/main.c:58
+msgid "NAME"
+msgstr "명칭"
+
+#: ../src/main.c:62
+msgid "Show the application version"
+msgstr "프로그램 버전을 나타냅니다"
+
+#: ../src/main.c:66
+msgid "Show which emulator will be used"
+msgstr "어떤 에뮬레이터를 사용하는지 나타냅니다"
+
+#: ../src/main.c:105
+msgid "No ROM files found"
+msgstr "롬 파일이 없습니다"
+
+#: ../src/main.c:109
+msgid ""
+"GNOME Video Arcade was unable to locate any ROM files. It could be that MAME "
+"is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
+"more details and troubleshooting tips."
+msgstr ""
+"그놈 비디오 아케이드에서 롬 파일 위치를 알 수 없습니다. MAME 설정이 잘못되었"
+"거나 롬 파일을 설치하지 않았을 수 있습니다. 자세한 내용과 문제 해결 방법은 "
+"<b>도움말</b>을 눌러 참고하십시오."
+
+#: ../src/main.c:152
+msgid "Changes detected in ROM files"
+msgstr "롬 파일 바뀜 감지"
+
+#: ../src/main.c:156
+msgid ""
+"GNOME Video Arcade has detected changes in your ROM files and will need to "
+"audit them in order to update the game list. However the audit may take "
+"several minutes to complete. Would you like to perform the audit now?\n"
+"\n"
+"If you skip the audit now, it will be performed automatically the next time "
+"you start GNOME Video Arcade."
+msgstr ""
+"그놈 비디오 아케이드에서 바뀐 롬 파일을 확인했으며 게임 목록을 업데이트"
+"에 필요한 검사를 진행해야 합니다. 그러나 검사를 끝내려면 수 분이 걸립니다. "
+"지금 검사를 진행하시겠습니까?\n"
+"\n"
+"지금 검사를 건너뛰면 다음에 그놈 비디오 아케이드를 시작할 때 자동으로 진행합"
+"니다."
+
+#: ../src/main.c:166
+msgid "_Skip Audit"
+msgstr "검사 건너뛰기(_S)"
+
+#: ../src/main.c:167
+msgid "_Audit ROM Files"
+msgstr "롬 파일 검사(_A)"
