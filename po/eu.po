@@ -1,14 +1,14 @@
 # Basque translation for gnome-video-arcade.
 # Copyright (C) 2019 gnome-video-arcade's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-video-arcade package.
-# Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2019.
+# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2019, 2022.
 #
 msgid ""
 msgstr "Project-Id-Version: gnome-video-arcade master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-video-arcade/issues\n"
-"POT-Creation-Date: 2019-09-09 12:19+0000\n"
-"PO-Revision-Date: 2019-09-12 10:00+0100\n"
-"Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
+"POT-Creation-Date: 2020-07-13 10:47+0000\n"
+"PO-Revision-Date: 2022-04-15 10:00+0100\n"
+"Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,11 @@ msgstr "Erakutsi hurrengo jokoa"
 
 #: ../data/gnome-video-arcade.builder.h:3
 msgid "Play _Back…"
-msgstr ""
+msgstr "Erreproduzitu _berriro…"
 
 #: ../data/gnome-video-arcade.builder.h:4
 msgid "Play back the selected game recording"
-msgstr ""
+msgstr "Erreproduzitu berriro hautatutako joko-grabazioa"
 
 #: ../data/gnome-video-arcade.builder.h:5
 msgid "Show previous game"
@@ -78,7 +78,7 @@ msgstr "Erakutsi jokoen zerrenda pertsonalizatu bat"
 
 #: ../data/gnome-video-arcade.builder.h:16
 msgid "Play back a previously recorded game"
-msgstr ""
+msgstr "Erreproduzitu berriro aurretik grabatutako joko bat"
 
 #: ../data/gnome-video-arcade.builder.h:17
 msgid "_Start"
@@ -90,7 +90,7 @@ msgstr "Hasi hautatutako jokoa"
 
 #: ../data/gnome-video-arcade.builder.h:19
 msgid "Show _alternate versions of original games"
-msgstr ""
+msgstr "Erakutsi jatorrizko jokoen _ordezko bertsioak"
 
 #: ../data/gnome-video-arcade.builder.h:20
 msgid "_Available Games"
@@ -143,14 +143,14 @@ msgstr "<big><b>ROM fitxategietan detektatutako erroreak</b></big>"
 msgid ""
 "An audit of the available games has detected errors in some of the ROM "
 "files. The following games will not be available in GNOME Video Arcade."
-msgstr ""
+msgstr "Erabilgarri dauden jokoen ikuskaritza batek erroreak detektatu ditu zenbait ROM fitxategitan. GNOME Video Arcade aplikazioan ez dira erabilgarri egongo joko horiak."
 
 #: ../data/gnome-video-arcade.builder.h:33
 msgid ""
 "<small><i>If these games worked with previous versions of MAME, it is likely "
 "their ROM requirements have changed.  If so, you will need to acquire more "
 "recent ROM files.</i></small>"
-msgstr ""
+msgstr "<small><i>Joko horiek MAMEren aurreko bertsioetan funtzionatzen bazuten, beharbada beren ROM eskakizunak aldatu dira. Horrela bada, ROM fitxategi berriagoak eskuratu beharko dituzu.</i></small>"
 
 #: ../data/gnome-video-arcade.builder.h:34
 msgid "Close this window"
@@ -168,43 +168,43 @@ msgstr "Historia"
 #. * so it has to be translated with markup anyway.
 #: ../data/gnome-video-arcade.builder.h:37 ../src/gva-columns.c:753
 msgid "<b>There are known problems with this game:</b>"
-msgstr ""
+msgstr "<b>Joko honek zenbait arazo ezagun ditu:</b>"
 
 #. The labels begin with a UTF-8 encoded bullet character.
 #: ../data/gnome-video-arcade.builder.h:39 ../src/gva-columns.c:765
 #, no-c-format
 msgid "• The colors aren’t 100% accurate."
-msgstr ""
+msgstr "• Koloreak ez dira %100ean zehatzak."
 
 #: ../data/gnome-video-arcade.builder.h:40 ../src/gva-columns.c:774
 msgid "• The colors are completely wrong."
-msgstr ""
+msgstr "• Koloreak erabat okerrak dira."
 
 #: ../data/gnome-video-arcade.builder.h:42 ../src/gva-columns.c:784
 #, no-c-format
 msgid "• The video emulation isn’t 100% accurate."
-msgstr ""
+msgstr "• Bideo-emulazioa ez da %100ean zehatza."
 
 #: ../data/gnome-video-arcade.builder.h:44 ../src/gva-columns.c:794
 #, no-c-format
 msgid "• The sound emulation isn’t 100% accurate."
-msgstr ""
+msgstr "• Soinu-emulazioa ez da %100ean zehatza."
 
 #: ../data/gnome-video-arcade.builder.h:45 ../src/gva-columns.c:803
 msgid "• The game lacks sound."
-msgstr ""
+msgstr "• Jokoak ez du soinurik."
 
 #: ../data/gnome-video-arcade.builder.h:46 ../src/gva-columns.c:812
 msgid "• Screen flipping in cocktail mode is not supported."
-msgstr ""
+msgstr "• Ez da onartzen pantaila iraultzea koktel moduan."
 
 #: ../data/gnome-video-arcade.builder.h:47 ../src/gva-columns.c:821
 msgid "• <b>THIS GAME DOESN’T WORK.</b>"
-msgstr ""
+msgstr "• <b>JOKO HAU EZ DABIL.</b>"
 
 #: ../data/gnome-video-arcade.builder.h:48 ../src/gva-columns.c:831
 msgid "• The game has protection which isn’t fully emulated."
-msgstr ""
+msgstr "• Joko honek osorik emulatuta ez dagoen babesa du."
 
 #: ../data/gnome-video-arcade.builder.h:49
 msgid "<b>BIOS</b>"
@@ -240,11 +240,11 @@ msgstr "Grabatutako jokoak"
 
 #: ../data/gnome-video-arcade.builder.h:57
 msgid "Delete the selected game recordings"
-msgstr ""
+msgstr "Ezabatu hautatutako joko-grabazioak"
 
 #: ../data/gnome-video-arcade.builder.h:58
 msgid "Play _Back"
-msgstr ""
+msgstr "Erreproduzitu _berriro"
 
 #: ../data/gnome-video-arcade.builder.h:59
 msgid "_About"
@@ -319,7 +319,7 @@ msgid ""
 "<small><i><b>Note:</b> Setting this will not take effect until the second "
 "time the game is started. It does not apply to recording or playing back "
 "games.</i></small>"
-msgstr ""
+msgstr "<small><i><b>Oharra:</b>Ezarpenak ez dira indarrean sartuko jokoa bigarren aldiz abiarazi arte. Hori ez zaio aplikatzen jokoak grabatzeari edo berriro erreproduzitzeari.</i></small>"
 
 #: ../data/gnome-video-arcade.builder.h:77
 msgid "<b>Game List</b>"
@@ -346,7 +346,7 @@ msgid ""
 "GNOME Video Arcade is a simple front-end application for MAME (Multiple "
 "Arcade Machine Emulator) allowing you to play classic arcade games on your "
 "computer."
-msgstr ""
+msgstr "GNOME Video Arcade aplikazioa MAME (Multiple Arcade Machine Emulator) emulatzailerako interfaze sinple bat da. Arkade-joko klasikoak zure ordenagailuan jokatzea ahalbidetzen du."
 
 #: ../data/gnome-video-arcade.desktop.in.h:2
 msgid "Video Arcade"
@@ -358,13 +358,13 @@ msgstr "Jokatu arkade-joko klasikoak"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:1
 msgid "All available column names"
-msgstr ""
+msgstr "Zutabe-izen erabilgarri guztiak"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:2
 msgid ""
 "List of all available column names. The user may choose to only display a "
 "subset of them (see “columns”)."
-msgstr ""
+msgstr "Zutabe-izen erabilgarri guztien zerrenda. Erabiltzaileak aukeratu dezake horietako zenbait soilik erakustea (ikusi “zutabeak“)."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:3
 msgid "Save and restore state"
@@ -378,7 +378,7 @@ msgid ""
 "This setting does not apply to recording games or playing back previously "
 "recorded games. In those cases the emulator will always reboot the arcade "
 "machine."
-msgstr ""
+msgstr "Gaitu leheneratze automatikoa abioan eta gordetzea irteeran. Egia bada, emulatzailea arkade-makinaren aurreko egoera leheneratzen saiatuko da joko bat abiarazten denean. Faltsua bada, emulatzaileak zerotik abiaraziko du arkade-makina. Ezarpen hau ez zaie aplikatzen jokoak grabatzeari edo lehendik grabatuta dauden jokoen erreprodukzioari. Kasu horietan, emulatzailea beti arkade-makinan berrabiaraziko da."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:5
 msgid "Column names"
@@ -404,7 +404,7 @@ msgstr "Hasi jokoak pantaila osoko moduan"
 msgid ""
 "If true, automatically switch to full screen mode when starting a game. If "
 "false, start the game in a window."
-msgstr ""
+msgstr "Egia bada, automatikoki aldatu pantaila osoko modura joko bat hasten denean. Faltsua bada, hasi jokoa leiho batean."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:11
 msgid "ROM error filename"
@@ -412,7 +412,7 @@ msgstr "ROM erroreen fitxategi-izena"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:12
 msgid "Suggested filename for the ROM error “Save As” dialog."
-msgstr ""
+msgstr "“Gorde honela” elkarrizketa-koadroko ROM errorerako iradokitako fitxategi-izena."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:13
 msgid "Properties height"
@@ -436,7 +436,7 @@ msgstr "Propietateen orria"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:18
 msgid "The most recently selected page in the Properties window."
-msgstr ""
+msgstr "Propietateen leihoan azkenekoz hautatutako orria."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:19
 msgid "Properties width"
@@ -460,11 +460,11 @@ msgstr "Hautatutako jokoa"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:24
 msgid "The most recently selected game."
-msgstr "Azken hautatutako jokoa."
+msgstr "Hautatutako azken jokoa."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:25
 msgid "Selected completion match"
-msgstr ""
+msgstr "Hautatutako osatzeko bat etortzea"
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:26
 msgid ""
@@ -472,7 +472,7 @@ msgid ""
 "value is the column name of the match, and the second value is the text of "
 "the match. Example: (manufacturer, Williams). Empty values indicate the "
 "completion feature was not used in the most recent search."
-msgstr ""
+msgstr "Bilaketa batean osatutako zerrendan azkenekoz hautatutako bat etortzea. Lehen balioa bat etortzearen zutabe-izena da eta bigarren balioa bat etortzearen testua da. Adibidea. (fabrikatzailea, Williams). Balio hutsek adierazten dute osatzeko eginbodea ez dela erabili azken bilaketan."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:27
 msgid "Selected view"
@@ -490,7 +490,7 @@ msgstr "Erakutsi klonatutako jokoak"
 msgid ""
 "If true, show both original and cloned games in the main window. If false, "
 "show only original games."
-msgstr ""
+msgstr "Egia bada, jatorrizko jokoa eta joko klonatua erakutsiko dira leiho nagusian. Faltsua bada, jatorrizko jokoa soilik erakutsiko da."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:31
 msgid "Sort column and sort order"
@@ -501,7 +501,7 @@ msgid ""
 "The first value is the most recently sorted column name (or “default” for "
 "default sorting), and the second value is the sort order. True indicates "
 "descending order; False indicates ascending order."
-msgstr ""
+msgstr "Lehen balioa azkenezkoz ordenatutako zutabe-izena (edo “lehenetsia” ordenatze lehenetsirako) da, eta bigarren balioa ordenatzea da. Egiak adierazten du ordena beherantz dela; faltsuak adierazten du gorantz dela."
 
 #: ../data/org.gnome.VideoArcade.gschema.xml.in.h:33
 msgid "Sound muted"
@@ -607,15 +607,15 @@ msgstr "Klik hemen gogokoetara gehitzeko"
 
 #: ../src/gva-columns.c:961 ../src/gva-properties.c:408
 msgid "(Game Description Unknown)"
-msgstr ""
+msgstr "(Jokoaren deskribapen ezezaguna)"
 
 #: ../src/gva-columns.c:964 ../src/gva-properties.c:411
 msgid "(Manufacturer Unknown)"
-msgstr ""
+msgstr "(Fabrikatzaile ezezaguna)"
 
 #: ../src/gva-columns.c:967 ../src/gva-properties.c:414
 msgid "(Year Unknown)"
-msgstr ""
+msgstr "(Urte ezezaguna)"
 
 #: ../src/gva-columns.c:991 ../src/gva-main.c:1021
 msgid "ROM Name"
@@ -679,12 +679,12 @@ msgstr "Iruzkina"
 
 #: ../src/gva-columns.c:1052
 msgid "Played On"
-msgstr ""
+msgstr "Hemen erreproduzitua:"
 
 #: ../src/gva-input-file.c:505
 #, c-format
 msgid "Invalid or unsupported INP file format"
-msgstr ""
+msgstr "INP fitxategi-formatu baliogabea edo onartzen ez dena"
 
 #: ../src/gva-main.c:242
 msgid "Building game database…"
@@ -731,7 +731,7 @@ msgstr "Mutututa"
 
 #: ../src/gva-mute-button.c:127
 msgid "Whether the button state is muted"
-msgstr ""
+msgstr "Botoiaren egoera mututua den ala ez"
 
 #: ../src/gva-mute-button.c:202
 msgid "In-game sound is muted"
@@ -743,11 +743,11 @@ msgstr "Jokoaren soinua gaituta dago"
 
 #: ../src/gva-nplayers.c:179
 msgid "Up to four players alternating or two players simultaneously"
-msgstr ""
+msgstr "Lau jokalari arte bakoitzean bana, edo bi jokalari aldi berean"
 
 #: ../src/gva-nplayers.c:183
 msgid "Up to eight players alternating or two players simultaneously"
-msgstr ""
+msgstr "Zortzi jokalari arte bakoitzean bana, edo bi jokalari aldi berean"
 
 #: ../src/gva-nplayers.c:198 ../src/gva-nplayers.c:241
 #: ../src/gva-nplayers.c:277
@@ -784,69 +784,69 @@ msgstr "Zortzi jokalari arte"
 
 #: ../src/gva-nplayers.c:244
 msgid "One or two players alternating"
-msgstr ""
+msgstr "Jokalari bat edo bi, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:247
 msgid "Up to three players alternating"
-msgstr ""
+msgstr "Hiru jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:250
 msgid "Up to four players alternating"
-msgstr ""
+msgstr "Lau jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:253
 msgid "Up to five players alternating"
-msgstr ""
+msgstr "Bost jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:256
 msgid "Up to six players alternating"
-msgstr ""
+msgstr "Sei jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:259
 msgid "Up to seven players alternating"
-msgstr ""
+msgstr "Zazpi jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:262
 msgid "Up to eight players alternating"
-msgstr ""
+msgstr "Zortzi jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:280
 msgid "One or two players simultaneously"
-msgstr ""
+msgstr "Jokalari bat edo bi, aldi berean"
 
 #: ../src/gva-nplayers.c:283
 msgid "Up to three players simultaneously"
-msgstr ""
+msgstr "Hiru jokalari arte, aldi berean"
 
 #: ../src/gva-nplayers.c:286
 msgid "Up to four players simultaneously"
-msgstr ""
+msgstr "Lau jokalari arte, aldi berean"
 
 #: ../src/gva-nplayers.c:289
 msgid "Up to five players simultaneously"
-msgstr ""
+msgstr "Bost jokalari arte, bakoitzean bana"
 
 #: ../src/gva-nplayers.c:292
 msgid "Up to six players simultaneously"
-msgstr ""
+msgstr "Sei jokalari arte, aldi berean"
 
 #: ../src/gva-nplayers.c:295
 msgid "Up to seven players simultaneously"
-msgstr ""
+msgstr "Zazpi jokalari arte, aldi berean"
 
 #: ../src/gva-nplayers.c:298
 msgid "Up to eight players simultaneously"
-msgstr ""
+msgstr "Zortzi jokalari arte, aldi berean"
 
 #: ../src/gva-play-back.c:54
 msgid "Delete selected game recordings?"
-msgstr ""
+msgstr "Ezabatu hautatutako joko-grabazioak?"
 
 #: ../src/gva-play-back.c:58
 msgid ""
 "This operation will permanently erase the recorded games you have selected.  "
 "Are you sure you want to proceed?"
-msgstr ""
+msgstr "Eragiketa honek betiko ezabatuko ditu hautatu dituzun joko-grabazioak. Ziur zaude jarraitu nahi duzula?"
 
 #: ../src/gva-play-back.c:62
 msgid "Do Not Delete"
@@ -900,11 +900,15 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License along with "
 "GNOME Video Arcade.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
+msgstr "GNOME Video Arcade software librea da; Free Software Foundation erakundeak argitaratutako GNU Lizentzia Publiko Orokorraren 3. bertsioan, edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero, modu librean banatu eta moldatu dezakezu.\n"
+"\n"
+"GNOME Video Arcade erabilgarria izango delakoan banatzen da, baina, INOLAKO BERMERIK GABE; era berean, ez da bermatzen bere egokitasuna MERKATURATZEKO edo HELBURU PARTIKULARRETAN ERABILTZEKO. Argibide gehiago nahi izanez gero, ikus GNU Lizentzia Publiko Orokorra.\n"
+"\n"
+"Programa honekin batera, GNOME Video Arcade Lizentzia Publiko Orokorraren kopia bat jasoko zenuen. Hala ez bada, bisitatu <http://www.gnu.org/licenses/>."
 
 #: ../src/gva-ui.c:310
 msgid "M.A.M.E. Front-End"
-msgstr ""
+msgstr "M.A.M.E. interfazea"
 
 #: ../src/gva-ui.c:315
 msgid "Visit the Website"
@@ -952,7 +956,7 @@ msgstr "Eraiki jokoen datu-basea"
 
 #: ../src/main.c:57
 msgid "Inspect an emulator setting"
-msgstr ""
+msgstr "Ikuskatu emulatzaile-ezarpen bat"
 
 #: ../src/main.c:58
 msgid "NAME"
@@ -975,11 +979,11 @@ msgid ""
 "GNOME Video Arcade was unable to locate any ROM files. It could be that MAME "
 "is misconfigured or that no ROM files are installed. Click <b>Help</b> for "
 "more details and troubleshooting tips."
-msgstr ""
+msgstr "GNOME Video Arcade aplikazioak ezin izan ditu aurkitu ROM fitxategiak. Agian MAME gaizki konfiguratuta dago edo ez dago ROM fitxategirik instalatua. Egin klik <b>Laguntza</b> aukeran xehetasun gehiagorako eta arazoa konpontzeko iradokizunetarako."
 
 #: ../src/main.c:152
 msgid "Changes detected in ROM files"
-msgstr ""
+msgstr "Aldaketak detektatu dira ROM fitxategietan"
 
 #: ../src/main.c:156
 msgid ""
@@ -989,12 +993,14 @@ msgid ""
 "\n"
 "If you skip the audit now, it will be performed automatically the next time "
 "you start GNOME Video Arcade."
-msgstr ""
+msgstr "GNOME Video Arcadek aldaketak detektatu ditu zure ROM fitxategietan eta haiek ikuskatu behar ditu jokoen zerrenda eguneratu baino lehen. Hala ere, ikuskaritzak zenbait minutu beharko ditu osatzeko. Ikuskaritza gauzatu nahi duzu?\n"
+"\n"
+"Ikuskaritza saltatzen baduzu, automatikoki gauzatuko da GNOME Video Arcade hasten den hurrengoan."
 
 #: ../src/main.c:166
 msgid "_Skip Audit"
-msgstr ""
+msgstr "_Saltatu ikuskaritza"
 
 #: ../src/main.c:167
 msgid "_Audit ROM Files"
-msgstr ""
+msgstr "_Ikuskatu ROM fitxategiak"
